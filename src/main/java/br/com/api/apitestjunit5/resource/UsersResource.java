@@ -46,4 +46,5 @@ public class UsersResource {
                 .buildAndExpand(usersService.createUsers(usersDTO).getId()).toUri();
         return ResponseEntity.created(uri).build();
     }
+
 }
