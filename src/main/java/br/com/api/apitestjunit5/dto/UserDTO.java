@@ -11,7 +11,7 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class UsersDTO {
+public class UserDTO {
     
     private Integer id;
     private String name;
